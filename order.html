@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Bowlby+One+SC' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" media="screen" href="css/normalize.css">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <title> Jimmy Thomas Roasting Company </title>
+</head>
+<body>
+  <img class="bgimg" src="img/woodbg2.jpg" alt="wood Background">
+  <img class="logo" src="img/logowhite.png" alt="Jimmy Thomas Roasting Company Logo">
+  <ul class="nav">
+  <li> <a href="index.php"> HOME</a> </li>
+  <li> <a href="menu.html">MENU</a> </li>
+  <li> <a href="order.html">ORDER</a> </li>
+</ul>
+  <div class="order_title_content">
+
+  <img class="media" src="img/coffee7.png" alt="Coffee is great">
+
+
+<form method="post" action="order.php">
+      <label>Name</label>
+      <input name="name" placeholder="Your Name">
+
+      <label>Email</label>
+      <input name="email" type="email" placeholder="Your Email">
+
+      <label>Number</label>
+      <input name="phone" type="phone" placeholder="Your Phone Number">
+      Order
+       <select name="coffeeselect" class="dropdown">
+  <option value="Bali Blue Moon $14">Bali Blue Moon ($14)</option>
+  <option value="Rwanda Rulindo Bourbon $13">Rwanda Rulindo Bourbon ($13)</option>
+  <option value="Java Taman Dadar $13">Java Taman Dadar ($13)</option>
+  <option value="Nicaragua Acopio Suyatal $12">Nicaragua Acopio Suyatal ($13)</option>
+  <option value="El Salvador Majahual Tablon Tempisque $14">El Salvador Majahual Tablon Tempisque ($14)</option>
+  <!--option value="Sumatra Aceh Mandheling">Sumatra Aceh Mandheling</option>-->
+  <option value="Brazil Sao Benedito Fazenda $12">Brazil Sao Benedito Fazenda ($12)</option>
+  <option value="Costa Rica Rio Negro $12">Costa Rica Rio Negro ($12)</option>
+  <option value="Guatemala Patzun Finca Santa Anita $14">Guatemala Patzun Finca Santa Anita ($14)</option>
+  <option value="Rwanda Tumba Cocatu $14">Rwanda Tumba Cocatu ($14)</option>
+  <option value="Costa Rica Tarrazu Dota Providencia $13">Costa Rica Tarrazu Dota Providencia ($13)</option>
+  <option value="Ethiopia Busa Bechance SWP $15">Ethiopia Busa Bechance SWP ($15)</option>
+  <option value="Sumatra Lintong Pearung $13">Sumatra Lintong Pearung ($13)</option>
+  <option value="Ethiopia Layo Teraga $12">Ethiopia Layo Teraga ($12)</option>
+  <option value="Kenya Nyeri Gatomboya $14">Kenya Nyeri Gatomboya ($14)</option>
+
+</select>
+<label> Quantity </label>
+  <input name="amount" type="number" placeholder="How Many 12oz bags?">
+<label> Would you like your coffee ground? <input type="checkbox" name="ground" value="yes"> </label>
+
+      <label>Further Details</label>
+      <textarea name="message" placeholder="Is there anything you'd like to specify?"></textarea>
+
+      <input id="submit" name="submit" type="submit" value="Submit">
+
+    </form>
+</div>
+
+</form>
+</body>
+
+
+</html>
